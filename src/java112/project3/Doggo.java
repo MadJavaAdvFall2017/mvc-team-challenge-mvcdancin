@@ -5,14 +5,14 @@ package java112.project3;
 *
 *@author    nsteck
 */
-public class Doggo extends java.lang.Object {
+public class Doggo /* extends java.lang.Object */ {
 
     private String doggoType;
     private String doggoHairType;
     private int doggoAverageWeight;
     private int doggoAverageLifespan;
        
-    Doggo doggo = new Doggo();
+    //Doggo doggo = new Doggo();
 
     /**
     *  Constructor for the Doggo object

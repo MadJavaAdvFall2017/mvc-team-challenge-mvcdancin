@@ -39,7 +39,7 @@ public class FlashcardQuizServlet extends HttpServlet {
         Doggo dogThree = new Doggo();
         Doggo dogFour = new Doggo();
 
-        Set<Doggo> doggos = new TreeSet<Doggo>();
+        List<Doggo> doggos = new ArrayList<Doggo>();
 
         dogOne.setDoggoType("Pit Bull Terrier");
         dogOne.setDoggoHairType("Shiny and stiff to the touch, very short");

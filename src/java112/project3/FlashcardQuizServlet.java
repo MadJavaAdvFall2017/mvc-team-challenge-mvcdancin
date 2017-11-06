@@ -39,7 +39,7 @@ public class FlashcardQuizServlet extends HttpServlet {
         Doggo dogThree = new Doggo();
         Doggo dogFour = new Doggo();
 
-        List<Doggo> doggos = new ArrayList<Doggo>();
+  //      List<Doggo> doggos = new ArrayList<Doggo>();
 
         dogOne.setDoggoType("Pit Bull Terrier");
         dogOne.setDoggoHairType("Shiny and stiff to the touch, very short");
@@ -61,12 +61,15 @@ public class FlashcardQuizServlet extends HttpServlet {
         dogFour.setDoggoAverageWeight(39600);
         dogFour.setDoggoAverageLifespan(2400);
         
-        doggos.add(dogOne);
+  /*      doggos.add(dogOne);
         doggos.add(dogTwo);
         doggos.add(dogThree);
         doggos.add(dogFour);
-
-        request.setAttribute("doggoQuiz", doggos);
+*/
+        request.setAttribute("doggo1", dogOne);
+        request.setAttribute("doggo2", dogTwo);
+        request.setAttribute("doggo3", dogThree);
+        request.setAttribute("doggo4", dogFour);
 
         //Create the url
         String url = "/teamMVC.jsp";

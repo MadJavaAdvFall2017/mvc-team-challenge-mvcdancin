@@ -11,6 +11,7 @@ public class Doggo /* extends java.lang.Object */ {
     private String doggoHairType;
     private int doggoAverageWeight;
     private int doggoAverageLifespan;
+    private String doggoPic;
        
     //Doggo doggo = new Doggo();
 
@@ -22,6 +23,7 @@ public class Doggo /* extends java.lang.Object */ {
        doggoHairType = "Coarse doggo hairs";
        doggoAverageWeight = 33;
        doggoAverageLifespan = 100;
+       doggoPic = "sup brah";
     }
     
     
@@ -88,13 +90,33 @@ public class Doggo /* extends java.lang.Object */ {
     public int getDoggoAverageLifespan() {
        return doggoAverageLifespan;
     }
-    
+
     /**
-    *  Sets the doggoAverageLifespan attribute of the Doggo object
-    *
-    *@param  doggoAverageLifespan  The new doggoAverageLifespan value
-    */
+     *  Sets the doggoAverageLifespan attribute of the Doggo object
+     *
+     *@param  doggoAverageLifespan  The new doggoAverageLifespan value
+     */
     public void setDoggoAverageLifespan(int doggoAverageLifespan) {
-       this.doggoAverageLifespan = doggoAverageLifespan;
+        this.doggoAverageLifespan = doggoAverageLifespan;
     }
+
+    /**
+     *  Sets the doggoPic attribute of the Doggo object
+     *
+     *@param  doggoPic  The new doggoPic location
+     */
+    public void setDoggoPic(String doggoPic) {
+        this.doggoPic = doggoPic;
+    }
+
+    /**
+     *  Gets the doggoPic attribute of the Doggo object
+     *
+     *@return  doggoPic
+     */
+    public String getDoggoPic() {
+        return doggoPic;
+    }
+
 }
+

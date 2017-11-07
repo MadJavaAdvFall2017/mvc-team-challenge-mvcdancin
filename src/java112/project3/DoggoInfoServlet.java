@@ -44,22 +44,26 @@ public class DoggoInfoServlet extends HttpServlet {
         dogOne.setDoggoType("Pit Bull Terrier");
         dogOne.setDoggoHairType("Shiny and stiff to the touch, very short");
         dogOne.setDoggoAverageWeight(60);
-        dogOne.setDoggoAverageLifespan(14); 
+        dogOne.setDoggoAverageLifespan(14);
+        dogOne.setDoggoPic("pitbull.png");
 
         dogTwo.setDoggoType("Labrador Retriever");
         dogTwo.setDoggoHairType("Double-coated, providing protection from the elements");
         dogTwo.setDoggoAverageWeight(65);
         dogTwo.setDoggoAverageLifespan(12);
+        dogTwo.setDoggoPic("labs.jpg");
 
         dogThree.setDoggoType("Rhodesian Ridgeback");
         dogThree.setDoggoHairType("short and dense, sleek and glossy");
         dogThree.setDoggoAverageWeight(75);
         dogThree.setDoggoAverageLifespan(11);
+        dogThree.setDoggoPic("rhodesianRidgeback.jpg");
 
         dogFour.setDoggoType("Norwegian Ridgeback");
         dogFour.setDoggoHairType("scaly, dragonesque");
         dogFour.setDoggoAverageWeight(39600);
         dogFour.setDoggoAverageLifespan(2400);
+        dogFour.setDoggoPic("norwegianRidgeback.jpg");
 
         doggos.add(dogOne);
         doggos.add(dogTwo);

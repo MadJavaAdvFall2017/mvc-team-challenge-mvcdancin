@@ -27,7 +27,7 @@
                     <td>${doggos.doggoAverageWeight}</td>
                     <td>${doggos.doggoAverageLifespan}</td>
                     <td>
-                        <img src="images/${doggos.doggoPic}">
+                        <img src="images/${doggos.doggoPic}" width="350em">
                     </td>
                 </tr>
             </c:forEach>

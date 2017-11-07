@@ -11,9 +11,8 @@
     <div id="wrap">
         <div id="header">
             <div id="headerlinks">
-               <a href="/java112/first" title="First112Servlet">First112Servlet</a>
-               <a href="/java112/project2-properties" title="properties">PropertiesServlet</a>
-           </div>       
+               <a href="/java112/diagram.jsp" title="diagram">Diagram</a>
+           </div>
            <h1>Team MVCDancin'</h1>
            <h2>Fall 2017 Monday Nights</h2>
         </div>

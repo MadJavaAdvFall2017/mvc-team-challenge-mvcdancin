@@ -13,11 +13,11 @@ import javax.servlet.annotation.*;
  *@author    eknapp
  */
 @WebServlet(
-    name = "flashcardQuiz", 
-    urlPatterns = { "/FlashcardQuiz" }
+    name = "doggoInfo",
+        urlPatterns = { "/DoggoInfo" }
 )
  
-public class FlashcardQuizServlet extends HttpServlet {
+public class DoggoInfoServlet extends HttpServlet {
  
     /**
      *  Handles HTTP GET requests.
@@ -39,7 +39,7 @@ public class FlashcardQuizServlet extends HttpServlet {
         Doggo dogThree = new Doggo();
         Doggo dogFour = new Doggo();
 
-  //      List<Doggo> doggos = new ArrayList<Doggo>();
+        List<Doggo> doggos = new ArrayList<Doggo>();
 
         dogOne.setDoggoType("Pit Bull Terrier");
         dogOne.setDoggoHairType("Shiny and stiff to the touch, very short");
@@ -60,17 +60,17 @@ public class FlashcardQuizServlet extends HttpServlet {
         dogFour.setDoggoHairType("scaly, dragonesque");
         dogFour.setDoggoAverageWeight(39600);
         dogFour.setDoggoAverageLifespan(2400);
-        
-  /*      doggos.add(dogOne);
+
+        doggos.add(dogOne);
         doggos.add(dogTwo);
         doggos.add(dogThree);
         doggos.add(dogFour);
-*/
-        request.setAttribute("doggo1", dogOne);
-        request.setAttribute("doggo2", dogTwo);
-        request.setAttribute("doggo3", dogThree);
-        request.setAttribute("doggo4", dogFour);
 
+ /*       request.setAttribute("doggos", dogOne);
+        request.setAttribute("doggos", dogTwo);
+        request.setAttribute("doggos", dogThree);
+        request.setAttribute("doggos", dogFour);
+*/      request.setAttribute("doggos", doggos);
         //Create the url
         String url = "/teamMVC.jsp";
  
